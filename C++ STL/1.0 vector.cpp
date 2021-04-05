@@ -25,7 +25,7 @@ int main()
 
     cout<<"Is empty ? "<<v.empty()<<endl;
 
-    reverse(v);
+    reverse(v.begin(), v.end());
     for(it=v.begin();it!=v.end();it++)
     {
         cout<<*it<<endl;
