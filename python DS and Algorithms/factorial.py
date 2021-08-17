@@ -5,4 +5,4 @@ def factorial(num):
     else:
         return num*factorial(num-1)
 
-print(factorial(4))
+print(factorial(4.4))
